@@ -1,0 +1,1199 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+}
+
+// Цвета
+$white: #FFFFFF;
+$black: #000000;
+$black2: #0A0A0A;
+$blue: #0EA5E9;
+$blue2: #7DD3FC;
+$orange: #F59E0B;
+$green: #22C55E;
+$gray: #737373;
+h1 {
+    font-size: 40px;
+    color: $black;
+    font-family: "M-a";
+}
+
+h2 {
+    font-size: 32px;
+    color: $black;
+    font-family: "M-semibold";
+}
+
+h3 {
+    font-size: 24px;
+    color: $black;
+    font-family: "M-medium";
+}
+
+p {
+    font-size: 16px;
+    color: $black;
+    font-family: "M-regular";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: $white;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    gap: 184px;
+    scroll-behavior: smooth;
+}
+
+body2 {
+    background: $white;
+    max-width: 1920px;
+    display: flex;
+    flex-direction: column;
+    gap: 128px;
+    scroll-behavior: smooth;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: $blue;
+        padding: 16px 160px;
+        ul {
+            display: flex;
+            gap: 20px;
+            li {
+                font-family: "M-medium";
+                font-size: 24px;
+            }
+            li a {
+                text-decoration: none;
+                /* Убирает подчеркивание */
+            }
+        }
+        .icon-container {
+            display: flex;
+            gap: 20px;
+        }
+        .burger {
+            display: none;
+        }
+    }
+    .herobloc {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        background: url(../assets/img/Vector\ 1.png);
+        padding-left: 160px;
+        padding-right: 160px;
+        padding-top: 75px;
+        padding-bottom: 100px;
+        justify-content: center;
+        .hero-block {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            .hero-text {
+                display: flex;
+                flex-direction: column;
+                gap: 80px;
+                h1 {
+                    font-size: 96px;
+                    color: $white;
+                }
+                button {
+                    color: $black;
+                    padding: 8px 16px;
+                    border-radius: 20px;
+                    width: fit-content;
+                    background: $white;
+                    font-size: 20px;
+                    font-weight: "M-semibold";
+                }
+            }
+        }
+    }
+}
+
+// Технологии
+.technologies {
+    h1 {
+        font-size: 64px;
+    }
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    padding-right: 160px;
+    gap: 64px;
+    .c {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        .carts-row {
+            display: flex;
+            gap: 48px;
+            .cart {
+                display: flex;
+                flex-direction: column;
+                border-radius: 32px;
+                box-shadow: 0 0 10px rgba(14, 165, 233, 0.6);
+                gap: 24px;
+                padding: 32px;
+                width: 470px;
+                transition: box-shadow 0.3s ease, transform 0.3s ease;
+                .name {
+                    display: flex;
+                    gap: 20px;
+                    align-items: center;
+                    .icon {
+                        display: flex;
+                        gap: 8px;
+                    }
+                }
+                p {
+                    font-size: 16px;
+                }
+                &:hover {
+                    box-shadow: 0 0 25px rgba(14, 165, 233, 0.8);
+                    /* Увеличенная тень */
+                    transform: translateY(-10px);
+                    /* Легкий подъем */
+                }
+            }
+        }
+    }
+}
+
+// Структура команды разработки
+.block3 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    padding-right: 160px;
+    align-items: center;
+    gap: 64px;
+    h1 {
+        font-size: 64px;
+    }
+    .content {
+        display: flex;
+        align-items: center;
+        gap: 215px;
+        .foto {
+            display: flex;
+        }
+        .contents {
+            display: flex;
+            flex-direction: column;
+            gap: 130px;
+            .one {
+                display: flex;
+                gap: 32px;
+                align-items: center;
+                .text {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    h2 {
+                        font-size: 40px;
+                        color: $orange;
+                    }
+                    h3 {
+                        font-size: 32px;
+                        color: $orange;
+                    }
+                    .t {
+                        font-size: 40px;
+                        color: $green;
+                    }
+                    .tt {
+                        font-size: 32px;
+                        color: $green;
+                    }
+                    .j {
+                        font-size: 40px;
+                        color: $blue;
+                    }
+                    .jj {
+                        font-size: 32px;
+                        color: $blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Портфолио
+.block4 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    padding-right: 160px;
+    gap: 64px;
+    h1 {
+        font-size: 64px;
+    }
+    .one {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        align-items: center;
+        .carts {
+            display: flex;
+            gap: 120px;
+            .cart {
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                border-radius: 16px; // Скругление для всего блока .cart
+                overflow: hidden; // Чтобы тень не выходила за пределы
+                img {
+                    border-top-left-radius: 16px;
+                    border-top-right-radius: 16px;
+                    width: 100%; // Добавим ширину, чтобы картинка корректно масштабировалась
+                }
+                .main {
+                    display: flex;
+                    background: $gray;
+                    flex-direction: column;
+                    padding: 16px;
+                    border-bottom-left-radius: 16px;
+                    border-bottom-right-radius: 16px;
+                    gap: 12px;
+                    position: relative;
+                    box-shadow: 0 0 25px rgba(14, 165, 233, 0.7); // Более насыщенная тень
+                    transition: box-shadow 0.3s ease-in-out; // Плавное изменение тени
+                    p {
+                        font-size: 24px;
+                        color: $white;
+                        font-family: "M-medium";
+                    }
+                    .pp {
+                        font-size: 24px;
+                        color: $blue2;
+                        font-family: "M-medium";
+                    }
+                }
+                &:hover {
+                    box-shadow: 0 6px 40px rgba(14, 165, 233, 1); // Тень при наведении с более насыщенным цветом
+                }
+            }
+        }
+        .my-button {
+            text-align: center;
+            width: 438px;
+            border-radius: 20px;
+            padding: 8px 16px;
+            background: $blue;
+            color: $white;
+            font-size: 28px;
+            font-weight: "M-semibold";
+            text-decoration: none;
+        }
+    }
+}
+
+// Наши партнеры 
+.block5 {
+    overflow: hidden;
+    padding-left: 160px;
+    padding-right: 160px;
+    position: relative;
+    .marquee {
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .track {
+        display: flex;
+        gap: 100px;
+        width: max-content;
+        animation: loop 20s linear infinite;
+    }
+    img {
+        height: 40px;
+        width: auto;
+    }
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+// Отрасли
+.block6 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    text-align: left;
+    padding-left: 160px;
+    padding-right: 160px;
+    h1 {
+        margin-bottom: 20px;
+        font-size: 64px;
+    }
+    .carts {
+        display: flex;
+        gap: 20px;
+        .cart {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            cursor: pointer;
+            border-radius: 20px;
+            flex: 1;
+            .video {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                /* Видео будет заполнять весь блок */
+                border-radius: 20px;
+                transition: opacity 0.3s ease-in-out;
+            }
+            .content {
+                position: absolute;
+                bottom: 24px;
+                left: 24px;
+                right: 24px;
+                color: white;
+                text-align: left;
+                h2 {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                    color: #0EA5E9;
+                }
+                .teext {
+                    p {
+                        font-size: 16px;
+                        margin: 5px 0;
+                        color: $black;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Наша команда
+.block7 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 160px;
+    padding-right: 160px;
+    h1 {
+        font-size: 64px;
+    }
+    section {
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        align-items: center;
+        .carts {
+            display: flex;
+            gap: 50px;
+            align-items: center;
+            .cart {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                transition: transform 0.3s ease-in-out;
+                .image-wrapper {
+                    width: 300px;
+                    height: 300px;
+                    border-radius: 40px; // Увеличил радиус, чтобы совпадало
+                    transition: all 0.3s ease-in-out;
+                    overflow: hidden;
+                    position: relative;
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                        border-radius: inherit; // Наследует округление от родителя
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+                .info {
+                    opacity: 0;
+                    transform: translateY(10px);
+                    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+                    text-align: center;
+                    h2 {
+                        font-size: 64px;
+                        margin: 10px 0;
+                    }
+                    p {
+                        font-size: 20px;
+                        margin: 5px 0;
+                        .gray {
+                            color: gray;
+                        }
+                        .blue {
+                            color: #0EA5E9;
+                        }
+                        .black {
+                            color: black;
+                            font-weight: bold;
+                        }
+                    }
+                }
+                &:hover {
+                    .image-wrapper {
+                        width: 500px;
+                        height: 500px;
+                        box-shadow: 0px 5px 20px rgba(14, 165, 233, 0.9); // Поднял тень ближе
+                    }
+                    .info {
+                        opacity: 1;
+                        transform: translateY(0);
+                    }
+                }
+            }
+        }
+        .icons {
+            display: none;
+        }
+    }
+}
+
+// Процесс разработки
+.block8 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 160px;
+    padding-right: 160px;
+    gap: 64px;
+    h1 {
+        font-size: 64px;
+    }
+    .items {
+        display: flex;
+        flex-direction: column;
+        gap: 45px;
+        img {
+            width: 100%;
+        }
+        .content {
+            display: flex;
+            padding-left: 32px;
+            gap: 143px;
+            .one {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                h2 {
+                    font-size: 32px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+        .content2 {
+            display: flex;
+            padding-left: 140px;
+            gap: 127px;
+            .one {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                h2 {
+                    font-size: 32px;
+                }
+                p {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
+
+// Готовы создать проект?
+.block9 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 160px;
+    padding-right: 160px;
+    h1 {
+        font-size: 64px;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        section {
+            display: flex;
+            flex-direction: column;
+            padding: 80px 40px;
+            border: 1px solid $black;
+            border-radius: 16px;
+            gap: 36px;
+            width: 530px;
+            height: fit-content;
+            section2 {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                label {
+                    display: flex;
+                    flex-direction: column;
+                    font-size: 14px;
+                    color: $black2;
+                    gap: 8px;
+                }
+                input,
+                textarea {
+                    padding: 14px 16px;
+                    border-radius: 8px;
+                    border: 1px solid $black2;
+                    font-size: 16px;
+                    color: $black2;
+                    font-family: "M-regular";
+                    background: transparent;
+                    transition: 0.3s ease-in-out;
+                }
+                textarea {
+                    resize: none;
+                    height: 100px;
+                }
+                .icon {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    cursor: pointer;
+                    h3 {
+                        font-size: 18px;
+                        color: $blue;
+                        font-weight: 500;
+                    }
+                }
+            }
+            button {
+                background: $blue;
+                color: $white;
+                padding: 12px 32px;
+                border-radius: 16px;
+                font-size: 20px;
+                font-family: "M-medium";
+                width: fit-content;
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+}
+
+// Отзывы
+.otzuvu {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 160px;
+    padding-right: 160px;
+    h1 {
+        font-size: 64px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        .my-button {
+            background: $blue;
+            color: $white;
+            padding: 8px 16px;
+            border-radius: 16px;
+            font-size: 28px;
+            font-weight: "M-semibold";
+            width: 438px;
+        }
+        .carts {
+            display: flex;
+            justify-content: space-between;
+            gap: 64px;
+            .cart {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+                border-radius: 32px;
+                box-shadow: 0 0 10px rgba(14, 165, 233, 0.6);
+                padding: 32px;
+                width: 470px;
+                transition: box-shadow 0.3s ease, transform 0.3s ease;
+                &:hover {
+                    box-shadow: 0 0 25px rgba(14, 165, 233, 0.8);
+                    /* Увеличенная тень */
+                    transform: translateY(-10px);
+                    /* Легкий подъем */
+                }
+                .info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 12px;
+                    .in {
+                        display: flex;
+                        justify-content: space-between;
+                        .i {
+                            display: flex;
+                            align-items: center;
+                            gap: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Часто задаваемые вопросы
+.block10 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 160px;
+    /* Убираем отступ слева у блока */
+    padding-right: 160px;
+    /* Можно оставить отступ справа */
+    h1 {
+        font-size: 64px;
+        text-align: left;
+        /* Выравнивание текста по левому краю */
+        margin-left: 0;
+        /* Прижимаем к левому краю */
+        margin-top: 0;
+        /* Убираем верхний отступ */
+        margin-bottom: 0;
+        /* Убираем нижний отступ */
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .info {
+            display: flex;
+            flex-direction: column;
+            border-bottom: 2px solid $blue;
+            /* измените на цвет, который вам нужен */
+            width: 100%;
+            cursor: pointer;
+            .question {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-bottom: 8px;
+                h2 {
+                    font-size: 24px;
+                    /* размер шрифта для вопроса */
+                    margin: 0;
+                }
+                img {
+                    transition: transform 0.3s ease;
+                }
+            }
+            .answer {
+                max-height: 0;
+                overflow: hidden;
+                opacity: 0;
+                transition: max-height 0.5s ease, opacity 0.5s ease, padding 0.5s ease;
+                padding-top: 0;
+                color: #000;
+                /* черный цвет текста */
+                font-size: 18px;
+                /* размер шрифта для ответа, чуть меньше, чем у вопроса */
+                line-height: 1.6;
+                /* увеличиваем межстрочный интервал для удобства чтения */
+                padding-left: 10px;
+                /* отступ для улучшения читаемости */
+                padding-right: 10px;
+            }
+            &.active {
+                .answer {
+                    max-height: 500px;
+                    /* можно увеличить, если ответы длиннее */
+                    opacity: 1;
+                    padding-top: 10px;
+                }
+                .question img {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+    }
+}
+
+// Где мы находимся?
+.block11 {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 160px;
+    padding-right: 160px;
+    h1 {
+        font-size: 64px;
+    }
+}
+
+// Подвал
+footer {
+    display: flex;
+    padding: 52px 168px;
+    justify-content: space-between;
+    background: $blue;
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li {
+            font-family: "M-medium";
+            font-size: 24px;
+        }
+    }
+    .icon-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        h3 {
+            color: $white;
+            font-size: 24px;
+            font-family: "M-regular";
+        }
+        button {
+            background: $white;
+            color: $black;
+            border-radius: 16px;
+            font-size: 24px;
+            font-family: "M-medium";
+            padding: 12px 24px;
+        }
+        .icon {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
+
+// Вторая страница
+// SkillSphere
+.skillsphere {
+    display: flex;
+    flex-direction: column;
+    padding-left: 128px;
+    padding-right: 128px;
+    gap: 64px;
+    align-items: center;
+    h1 {
+        font-size: 64px;
+    }
+    .skill {
+        display: flex;
+        flex-direction: column;
+        background: url(../assets/img/Frame\ 217.png);
+        width: 100%;
+        height: 958px;
+        align-items: center;
+        justify-content: center;
+        .icons {
+            display: flex;
+            gap: 1400px;
+        }
+    }
+    .crug {
+        display: flex;
+        gap: 17px;
+        padding-top: 40px;
+        button {
+            width: 20px;
+            height: 20px;
+            background: #D9D9D9;
+            border-radius: 50px;
+        }
+        .crug2 {
+            width: 20px;
+            height: 20px;
+            background: $blue;
+            border-radius: 50px;
+        }
+    }
+}
+
+// Техническое задание
+.texnic {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
+    h1 {
+        font-size: 64px;
+    }
+    .content {
+        display: flex;
+        justify-content: space-between;
+        gap: 128px;
+        align-items: center;
+        .im{
+            display: flex;
+        }
+    }
+}
+
+// Стиль шрифтов
+@font-face {
+    font-family: "M-a";
+    src: url(../assets/fonts/ofont.ru_Montserrat\ Alternates.ttf);
+}
+
+@font-face {
+    font-family: "M-semibold";
+    src: url(../assets/fonts/ofont.ru_Montserrat\ \(1\).ttf);
+}
+
+@font-face {
+    font-family: "M-medium";
+    src: url(../assets/fonts/ofont.ru_Montserrat\ \(2\).ttf);
+}
+
+@font-face {
+    font-family: "M-regular";
+    src: url(../assets/fonts/ofont.ru_Montserrat.ttf);
+}
+
+@media (min-width: 280px) and (max-width: 439px) {
+    body {
+        gap: 40px;
+    }
+    body2{
+        gap: 60px;
+    }
+    .block {
+        header {
+            padding-left: 12px;
+            padding-right: 12px;
+            ul {
+                display: none;
+            }
+            .burger {
+                display: flex;
+            }
+            .icon-container {
+                display: none;
+            }
+        }
+        .herobloc {
+            padding-left: 12px;
+            padding-right: 12px;
+            padding-top: 16px;
+            padding-bottom: 26px;
+            .hero-block {
+                .hidden-image {
+                    display: none;
+                }
+                .hero-text {
+                    gap: 16px;
+                    h1 {
+                        font-size: 32px;
+                    }
+                    button {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .technologies {
+        gap: 32px;
+        padding-left: 12px;
+        padding-right: 12px;
+        align-items: center;
+        h1 {
+            font-size: 40px;
+        }
+        .c {
+            gap: 20px;
+            .carts-row {
+                flex-direction: column;
+                .cart {
+                    padding: 20px;
+                    gap: 16px;
+                    width: 336px;
+                    .name {
+                        gap: 16px;
+                    }
+                }
+            }
+        }
+    }
+    .block3 {
+        gap: 32px;
+        h1 {
+            font-size: 40px;
+        }
+        .content {
+            .foto {
+                display: none;
+            }
+            .contents {
+                gap: 20px;
+                .one {
+                    gap: 32px;
+                    img {
+                        width: 56px;
+                        height: 56px;
+                    }
+                    .text {
+                        gap: 12px;
+                        h2 {
+                            font-size: 24px;
+                        }
+                        h3 {
+                            font-size: 16px;
+                        }
+                        .t {
+                            font-size: 24px;
+                        }
+                        .tt {
+                            font-size: 16px;
+                        }
+                        .j {
+                            font-size: 24px;
+                        }
+                        .jj {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .block4 {
+        gap: 32px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        .one {
+            flex-direction: column;
+            gap: 32px;
+            .carts {
+                flex-direction: column;
+                gap: 20px;
+                .cart {
+                    width: 336px;
+                }
+            }
+            button {
+                width: 336px;
+            }
+        }
+    }
+    .block5 {
+        gap: 22px;
+        padding-left: 12px;
+        padding-right: 12px;
+        .ic {
+            display: none;
+        }
+    }
+    .block6 {
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        .carts {
+            flex-direction: column;
+            gap: 20px;
+        }
+    }
+    .block9 {
+        gap: 32px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        .contact {
+            display: none;
+        }
+    }
+    .block8 {
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        .items {
+            img {
+                display: none;
+            }
+            .content {
+                flex-direction: column;
+                gap: 20px;
+                padding-left: 12px;
+                .one {
+                    gap: 8px;
+                }
+            }
+            .content2 {
+                flex-direction: column;
+                gap: 20px;
+                padding-left: 12px;
+            }
+        }
+    }
+    footer {
+        padding: 12px 52px;
+        flex-direction: column;
+        gap: 80px;
+        align-items: center;
+        .icon-container {
+            gap: 32px;
+            align-items: center;
+        }
+    }
+    .otzuvu {
+        align-items: center;
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        .content {
+            gap: 34px;
+            .my-button {
+                display: none;
+            }
+            .carts {
+                flex-direction: column;
+                .cart {
+                    width: 336px;
+                    h3 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    .block10 {
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        .content {
+            .info {
+                width: 336px;
+                h2 {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+    .block11 {
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+    }
+    .block7 {
+        align-items: center;
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        section {
+            gap: 34px;
+            .icons {
+                display: flex;
+                gap: 45px;
+                img {
+                    width: 62px;
+                }
+            }
+            .carts {
+                flex-direction: column;
+                gap: 34px;
+                .cart {
+                    .image-wrapper {
+                        width: 200px;
+                        height: 200px;
+                        border-radius: 24px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                    .info {
+                        h2 {
+                            font-size: 32px;
+                        }
+                        p {
+                            font-size: 16px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .skillsphere{
+        gap: 34px;
+        padding-left:12px ;
+        padding-right: 12px;
+        h1{
+            font-size: 40px;
+        }
+        .skill{
+          height: 771px;
+          .icons {
+            gap: 110px;
+        }
+        }
+    }
+    .texnic{
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1{
+            font-size: 40px;
+        }
+        .content{
+            .im{
+                display: none;
+            }
+            h2{
+                font-size: 24px;
+            }
+        }
+    }
+}
