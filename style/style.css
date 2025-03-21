@@ -64,11 +64,11 @@ body2 {
   justify-content: space-between;
   align-items: center;
   background: #0EA5E9;
-  padding: 16px 160px;
+  padding: 16px 128px;
 }
 .block header ul {
   display: flex;
-  gap: 20px;
+  gap: 60px;
 }
 .block header ul li {
   font-family: "M-medium";
@@ -118,14 +118,22 @@ body2 {
   width: fit-content;
   background: #FFFFFF;
   font-size: 20px;
-  font-weight: "M-semibold";
+  font-family: "M-semibold";
+  transition: 0.3s ease, transform 0.2s ease;
+}
+.block .herobloc .hero-block .hero-text button:hover {
+  background: #e6e6e6;
+  transform: scale(1.05);
+}
+.block .herobloc .hero-block .hero-text button:active {
+  transform: scale(0.95);
 }
 
 .technologies {
   display: flex;
   flex-direction: column;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
   gap: 64px;
 }
 .technologies h1 {
@@ -173,8 +181,8 @@ body2 {
 .block3 {
   display: flex;
   flex-direction: column;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
   align-items: center;
   gap: 64px;
 }
@@ -232,8 +240,8 @@ body2 {
 .block4 {
   display: flex;
   flex-direction: column;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
   gap: 64px;
 }
 .block4 h1 {
@@ -294,14 +302,23 @@ body2 {
   background: #0EA5E9;
   color: #FFFFFF;
   font-size: 28px;
-  font-weight: "M-semibold";
+  font-weight: 600;
   text-decoration: none;
+  transition: 0.3s ease, transform 0.2s ease;
+  font-family: "M-semibold";
+}
+.block4 .one .my-button:hover {
+  background: #0b83b9;
+  transform: scale(1.05);
+}
+.block4 .one .my-button:active {
+  transform: scale(0.95);
 }
 
 .block5 {
   overflow: hidden;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
   position: relative;
 }
 .block5 .marquee {
@@ -334,8 +351,8 @@ body2 {
   flex-direction: column;
   gap: 64px;
   text-align: left;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
 }
 .block6 h1 {
   margin-bottom: 20px;
@@ -387,8 +404,8 @@ body2 {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
 }
 .block7 h1 {
   font-size: 64px;
@@ -466,8 +483,8 @@ body2 {
 .block8 {
   display: flex;
   flex-direction: column;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
   gap: 64px;
 }
 .block8 h1 {
@@ -497,6 +514,66 @@ body2 {
 .block8 .items .content .one p {
   font-size: 20px;
 }
+.block8 .items .content .one h1 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content .one h2 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content .one h3 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content .one h4 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content .one h5 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content .one h6 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content .one p {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content .one p2 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content .one p3 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content .one p4 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content .one p5 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content .one p6 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
 .block8 .items .content2 {
   display: flex;
   padding-left: 140px;
@@ -512,6 +589,66 @@ body2 {
 }
 .block8 .items .content2 .one p {
   font-size: 20px;
+}
+.block8 .items .content2 .one h1 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content2 .one h2 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content2 .one h3 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content2 .one h4 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content2 .one h5 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content2 .one h6 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "M-semibold";
+}
+.block8 .items .content2 .one p {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content2 .one p2 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content2 .one p3 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content2 .one p4 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content2 .one p5 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
+}
+.block8 .items .content2 .one p6 {
+  color: #000000;
+  font-size: 20px;
+  font-family: "M-regular";
 }
 
 .block9 {
@@ -588,14 +725,22 @@ body2 {
   width: fit-content;
   cursor: pointer;
   border: none;
+  transition: 0.3s ease, transform 0.2s ease;
+}
+.block9 .content section button:hover {
+  background: #0b83b9;
+  transform: scale(1.05);
+}
+.block9 .content section button:active {
+  transform: scale(0.95);
 }
 
 .otzuvu {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
 }
 .otzuvu h1 {
   font-size: 64px;
@@ -614,6 +759,14 @@ body2 {
   font-size: 28px;
   font-weight: "M-semibold";
   width: 438px;
+  transition: 0.3s ease, transform 0.2s ease;
+}
+.otzuvu .content .my-button:hover {
+  background: #0b83b9;
+  transform: scale(1.05);
+}
+.otzuvu .content .my-button:active {
+  transform: scale(0.95);
 }
 .otzuvu .content .carts {
   display: flex;
@@ -655,9 +808,9 @@ body2 {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding-left: 160px;
+  padding-left: 128px;
   /* Убираем отступ слева у блока */
-  padding-right: 160px;
+  padding-right: 128px;
   /* Можно оставить отступ справа */
 }
 .block10 h1 {
@@ -728,8 +881,8 @@ body2 {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding-left: 160px;
-  padding-right: 160px;
+  padding-left: 128px;
+  padding-right: 128px;
 }
 .block11 h1 {
   font-size: 64px;
@@ -737,7 +890,7 @@ body2 {
 
 footer {
   display: flex;
-  padding: 52px 168px;
+  padding: 52px 128px;
   justify-content: space-between;
   background: #0EA5E9;
 }
@@ -765,8 +918,16 @@ footer .icon-container button {
   color: #000000;
   border-radius: 16px;
   font-size: 24px;
-  font-family: "M-medium";
+  font-family: "M-semibold";
   padding: 12px 24px;
+  transition: 0.3s ease, transform 0.2s ease;
+}
+footer .icon-container button:hover {
+  background: #e6e6e6;
+  transform: scale(1.05);
+}
+footer .icon-container button:active {
+  transform: scale(0.95);
 }
 footer .icon-container .icon {
   display: flex;
@@ -1024,10 +1185,92 @@ footer .icon-container .icon {
   .block8 .items .content .one {
     gap: 8px;
   }
+  .block8 .items .content .one h2::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 40px;
+    margin-top: 4px;
+  }
+  .block8 .items .content .one p {
+    font-weight: 500;
+  }
+  .block8 .items .content .one h1 {
+    color: #4E88E7;
+  }
+  .block8 .items .content .one h2 {
+    color: #1EABDA;
+  }
+  .block8 .items .content .one h3 {
+    color: #3CC583;
+  }
+  .block8 .items .content .one h4 {
+    color: #92BD39;
+  }
+  .block8 .items .content .one h5 {
+    color: #DE8431;
+  }
+  .block8 .items .content .one h6 {
+    color: #DEBE31;
+  }
+  .block8 .items .content .one p {
+    color: #4E88E7;
+  }
+  .block8 .items .content .one p2 {
+    color: #1EABDA;
+  }
+  .block8 .items .content .one p3 {
+    color: #3CC583;
+  }
+  .block8 .items .content .one p4 {
+    color: #92BD39;
+  }
+  .block8 .items .content .one p5 {
+    color: #DE8431;
+  }
+  .block8 .items .content .one p6 {
+    color: #DEBE31;
+  }
   .block8 .items .content2 {
     flex-direction: column;
     gap: 20px;
     padding-left: 12px;
+  }
+  .block8 .items .content2 .one h1 {
+    color: #4E88E7;
+  }
+  .block8 .items .content2 .one h2 {
+    color: #1EABDA;
+  }
+  .block8 .items .content2 .one h3 {
+    color: #3CC583;
+  }
+  .block8 .items .content2 .one h4 {
+    color: #92BD39;
+  }
+  .block8 .items .content2 .one h5 {
+    color: #DE8431;
+  }
+  .block8 .items .content2 .one h6 {
+    color: #DEBE31;
+  }
+  .block8 .items .content2 .one p {
+    color: #4E88E7;
+  }
+  .block8 .items .content2 .one p2 {
+    color: #1EABDA;
+  }
+  .block8 .items .content2 .one p3 {
+    color: #3CC583;
+  }
+  .block8 .items .content2 .one p4 {
+    color: #92BD39;
+  }
+  .block8 .items .content2 .one p5 {
+    color: #DE8431;
+  }
+  .block8 .items .content2 .one p6 {
+    color: #DEBE31;
   }
   footer {
     padding: 12px 52px;

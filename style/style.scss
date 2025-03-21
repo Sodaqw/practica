@@ -71,10 +71,10 @@ body2 {
         justify-content: space-between;
         align-items: center;
         background: $blue;
-        padding: 16px 160px;
+        padding: 16px 128px;
         ul {
             display: flex;
-            gap: 20px;
+            gap: 60px;
             li {
                 font-family: "M-medium";
                 font-size: 24px;
@@ -121,7 +121,15 @@ body2 {
                     width: fit-content;
                     background: $white;
                     font-size: 20px;
-                    font-weight: "M-semibold";
+                    font-family: "M-semibold";
+                    transition: 0.3s ease, transform 0.2s ease;
+                    &:hover {
+                        background: darken($white, 10%);
+                        transform: scale(1.05);
+                    }
+                    &:active {
+                        transform: scale(0.95);
+                    }
                 }
             }
         }
@@ -135,8 +143,8 @@ body2 {
     }
     display: flex;
     flex-direction: column;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     gap: 64px;
     .c {
         display: flex;
@@ -182,8 +190,8 @@ body2 {
 .block3 {
     display: flex;
     flex-direction: column;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     align-items: center;
     gap: 64px;
     h1 {
@@ -242,8 +250,8 @@ body2 {
 .block4 {
     display: flex;
     flex-direction: column;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     gap: 64px;
     h1 {
         font-size: 64px;
@@ -302,8 +310,17 @@ body2 {
             background: $blue;
             color: $white;
             font-size: 28px;
-            font-weight: "M-semibold";
+            font-weight: 600;
             text-decoration: none;
+            transition: 0.3s ease, transform 0.2s ease;
+            font-family: "M-semibold";
+            &:hover {
+                background: darken($blue, 10%);
+                transform: scale(1.05);
+            }
+            &:active {
+                transform: scale(0.95);
+            }
         }
     }
 }
@@ -311,8 +328,8 @@ body2 {
 // Наши партнеры 
 .block5 {
     overflow: hidden;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     position: relative;
     .marquee {
         display: flex;
@@ -346,8 +363,8 @@ body2 {
     flex-direction: column;
     gap: 64px;
     text-align: left;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     h1 {
         margin-bottom: 20px;
         font-size: 64px;
@@ -401,8 +418,8 @@ body2 {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     h1 {
         font-size: 64px;
     }
@@ -482,8 +499,8 @@ body2 {
 .block8 {
     display: flex;
     flex-direction: column;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     gap: 64px;
     h1 {
         font-size: 64px;
@@ -509,6 +526,66 @@ body2 {
                 p {
                     font-size: 20px;
                 }
+                h1 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h2 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h3 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h4 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h5 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h6 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                p {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p2 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p3 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p4 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p5 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p6 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
             }
         }
         .content2 {
@@ -524,6 +601,66 @@ body2 {
                 }
                 p {
                     font-size: 20px;
+                }
+                h1 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h2 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h3 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h4 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h5 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                h6 {
+                    color: $black;
+                    font-size: 32px;
+                    font-family: "M-semibold";
+                }
+                p {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p2 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p3 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p4 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p5 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
+                }
+                p6 {
+                    color: $black;
+                    font-size: 20px;
+                    font-family: "M-regular";
                 }
             }
         }
@@ -600,6 +737,14 @@ body2 {
                 width: fit-content;
                 cursor: pointer;
                 border: none;
+                transition: 0.3s ease, transform 0.2s ease;
+                &:hover {
+                    background: darken($blue, 10%);
+                    transform: scale(1.05);
+                }
+                &:active {
+                    transform: scale(0.95);
+                }
             }
         }
     }
@@ -610,8 +755,8 @@ body2 {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     h1 {
         font-size: 64px;
     }
@@ -628,6 +773,14 @@ body2 {
             font-size: 28px;
             font-weight: "M-semibold";
             width: 438px;
+            transition: 0.3s ease, transform 0.2s ease;
+            &:hover {
+                background: darken($blue, 10%);
+                transform: scale(1.05);
+            }
+            &:active {
+                transform: scale(0.95);
+            }
         }
         .carts {
             display: flex;
@@ -672,9 +825,9 @@ body2 {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding-left: 160px;
+    padding-left: 128px;
     /* Убираем отступ слева у блока */
-    padding-right: 160px;
+    padding-right: 128px;
     /* Можно оставить отступ справа */
     h1 {
         font-size: 64px;
@@ -748,8 +901,8 @@ body2 {
     display: flex;
     flex-direction: column;
     gap: 64px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 128px;
+    padding-right: 128px;
     h1 {
         font-size: 64px;
     }
@@ -758,7 +911,7 @@ body2 {
 // Подвал
 footer {
     display: flex;
-    padding: 52px 168px;
+    padding: 52px 128px;
     justify-content: space-between;
     background: $blue;
     ul {
@@ -784,8 +937,16 @@ footer {
             color: $black;
             border-radius: 16px;
             font-size: 24px;
-            font-family: "M-medium";
+            font-family: "M-semibold";
             padding: 12px 24px;
+            transition: 0.3s ease, transform 0.2s ease;
+            &:hover {
+                background: darken($white, 10%);
+                transform: scale(1.05);
+            }
+            &:active {
+                transform: scale(0.95);
+            }
         }
         .icon {
             display: flex;
@@ -853,7 +1014,7 @@ footer {
         justify-content: space-between;
         gap: 128px;
         align-items: center;
-        .im{
+        .im {
             display: flex;
         }
     }
@@ -880,11 +1041,13 @@ footer {
     src: url(../assets/fonts/ofont.ru_Montserrat.ttf);
 }
 
+@media (min-width: 440px) and (max-width: 1400px) {}
+
 @media (min-width: 280px) and (max-width: 439px) {
     body {
         gap: 40px;
     }
-    body2{
+    body2 {
         gap: 60px;
     }
     .block {
@@ -1057,12 +1220,98 @@ footer {
                 padding-left: 12px;
                 .one {
                     gap: 8px;
+                    h2 {
+                        &::after {
+                            content: "";
+                            display: block;
+                            height: 2px;
+                            width: 40px;
+                            margin-top: 4px;
+                        }
+                    }
+                    p {
+                        font-weight: 500;
+                    }
+                    h1 {
+                        color: #4E88E7
+                    }
+                    h2 {
+                        color: #1EABDA
+                    }
+                    h3 {
+                        color: #3CC583
+                    }
+                    h4 {
+                        color: #92BD39
+                    }
+                    h5 {
+                        color: #DE8431
+                    }
+                    h6 {
+                        color: #DEBE31
+                    }
+                    p {
+                        color: #4E88E7
+                    }
+                    p2 {
+                        color: #1EABDA
+                    }
+                    p3 {
+                        color: #3CC583
+                    }
+                    p4 {
+                        color: #92BD39
+                    }
+                    p5 {
+                        color: #DE8431
+                    }
+                    p6 {
+                        color: #DEBE31
+                    }
                 }
             }
             .content2 {
                 flex-direction: column;
                 gap: 20px;
                 padding-left: 12px;
+                .one {
+                    h1 {
+                        color: #4E88E7
+                    }
+                    h2 {
+                        color: #1EABDA
+                    }
+                    h3 {
+                        color: #3CC583
+                    }
+                    h4 {
+                        color: #92BD39
+                    }
+                    h5 {
+                        color: #DE8431
+                    }
+                    h6 {
+                        color: #DEBE31
+                    }
+                    p {
+                        color: #4E88E7
+                    }
+                    p2 {
+                        color: #1EABDA
+                    }
+                    p3 {
+                        color: #3CC583
+                    }
+                    p4 {
+                        color: #92BD39
+                    }
+                    p5 {
+                        color: #DE8431
+                    }
+                    p6 {
+                        color: #DEBE31
+                    }
+                }
             }
         }
     }
@@ -1166,32 +1415,32 @@ footer {
             }
         }
     }
-    .skillsphere{
-        gap: 34px;
-        padding-left:12px ;
-        padding-right: 12px;
-        h1{
-            font-size: 40px;
-        }
-        .skill{
-          height: 771px;
-          .icons {
-            gap: 110px;
-        }
-        }
-    }
-    .texnic{
+    .skillsphere {
         gap: 34px;
         padding-left: 12px;
         padding-right: 12px;
-        h1{
+        h1 {
             font-size: 40px;
         }
-        .content{
-            .im{
+        .skill {
+            height: 771px;
+            .icons {
+                gap: 110px;
+            }
+        }
+    }
+    .texnic {
+        gap: 34px;
+        padding-left: 12px;
+        padding-right: 12px;
+        h1 {
+            font-size: 40px;
+        }
+        .content {
+            .im {
                 display: none;
             }
-            h2{
+            h2 {
                 font-size: 24px;
             }
         }
